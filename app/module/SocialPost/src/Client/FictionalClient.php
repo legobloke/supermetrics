@@ -22,10 +22,8 @@ class FictionalClient implements SocialClientInterface
      * @param Client $client
      * @param string $clientId
      */
-    public function __construct(Client $client, string $clientId)
+    public function __construct(private Client $client, private string $clientId)
     {
-        $this->clientId = $clientId;
-        $this->client   = $client;
     }
 
     /**
