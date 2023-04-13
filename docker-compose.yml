@@ -1,4 +1,4 @@
-version: '3.9'
+version: '3.3'
 
 services:
   app-web:
@@ -30,4 +30,3 @@ services:
 
 networks:
   default:
-    name: sm_assignment

@@ -17,16 +17,6 @@ class FictionalClient implements SocialClientInterface
 {
 
     /**
-     * @var string
-     */
-    private $clientId;
-
-    /**
-     * @var Client
-     */
-    private $client;
-
-    /**
      * FictionalSocialApiClient constructor.
      *
      * @param Client $client
