@@ -17,25 +17,13 @@ class FictionalClient implements SocialClientInterface
 {
 
     /**
-     * @var string
-     */
-    private $clientId;
-
-    /**
-     * @var Client
-     */
-    private $client;
-
-    /**
      * FictionalSocialApiClient constructor.
      *
      * @param Client $client
      * @param string $clientId
      */
-    public function __construct(Client $client, string $clientId)
+    public function __construct(private Client $client, private string $clientId)
     {
-        $this->clientId = $clientId;
-        $this->client   = $client;
     }
 
     /**

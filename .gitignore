@@ -1,4 +1,5 @@
-/.idea
-/.env
+.idea
+.env
 /env/*.env
 .DS_Store
+/.phpunit.result.cache
